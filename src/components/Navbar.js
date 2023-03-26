@@ -1,8 +1,9 @@
+import logo from '../images/logo.png';
 
 export default function Navbar() {
   return(
     <nav>
-      <img className="navbar--logo" src="../images/logo.png"></img>
+      <img className="navbar--logo" src={logo}></img>
     </nav>
   )
 }
